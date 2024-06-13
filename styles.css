@@ -1,0 +1,196 @@
+:root{
+    --color-1: #000000;
+    --color-2: #FFFFFF;
+    --color-3: #BE965A;
+    --color-4: #2D373D;
+}
+
+
+body{
+    font-family: "Lato", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+
+  .header-div{
+    display: flex;
+    max-width: 1440px;
+    justify-content: center;
+    margin: auto;
+    gap: 40px;
+    padding: 40px 0px 20px;
+    .header-right{
+        margin-left: 10px;
+        .btns-header{
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+    }
+    .header-left {
+        margin-right: 10px;
+        img {
+            border-radius: 10px;
+        }
+    }
+  }
+
+  .btn-discount{
+    background-color: #BE965A;
+    width: 180px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 20px;
+  }
+
+  .btn-menu{
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 180px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid var(--color-2);
+  }
+
+  .get-to-know-us{
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 40px;
+    padding: 40px 0px 40px;
+    img {
+        border-radius: 10px;
+    }
+    .gtk-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h3 {
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-size: 16px;
+            font-weight: 200;
+            margin-bottom: -10px;
+        }
+        h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+      
+    }
+  }
+
+  .mid-cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 280px; /* Specify height for the container */
+    text-align: center; /* Center text inside the h5 element */
+    background-color: #BE965A;
+    h5 {
+        font-size: large;
+        max-width: 720px;
+        margin: 0; /* Remove default margin to prevent extra space */
+    }
+    button {
+        margin-left: 10px; /* Add space between h5 and button */
+    }
+  }
+
+  .contact-us{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between; /* Distribute space evenly between children */
+    margin: auto;
+    gap: 20px;
+    padding: 40px 20px 40px; /* Add padding to prevent content from touching edges */
+  }
+
+  .contact-middle{
+    flex: 1; /* Ensure all containers take equal space */
+    padding-left: 100px;
+    align-items: center;
+    h3 {
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 16px;
+        font-weight: 200;
+    }
+  }
+
+  .btn-mid{
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 180px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 40px;
+  }
+
+.contact-right,
+.contact-form {
+    flex: 1; /* Ensure all containers take equal space */
+    padding: 0 5px;
+    img {
+        border-radius: 10px;
+    }
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+}
+
+.label-contact{
+    border-radius: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 1px solid var(--color-2);
+}
+
+.btn-form{
+    background-color: #BE965A;
+    width: 180px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column; /* Align form elements vertically */
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 10px; /* Add space between form elements */
+    width: 100%; /* Ensure inputs and textarea take full width of their container */
+    padding: 10px; /* Add padding for better readability */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+.contact-form input[type="submit"] {
+    margin-top: 10px; /* Add space above the submit button */
+    cursor: pointer; /* Change cursor to pointer for the submit button */
+}
+
+.footer-container{
+    padding: 40px 0px 20px;
+    border-top: 1px solid #BE965A;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    p {
+        padding: 0 10px;
+    }
+}
