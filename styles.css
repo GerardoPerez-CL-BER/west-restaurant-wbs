@@ -24,10 +24,14 @@ body{
     padding: 40px 0px 20px;
     .header-right{
         margin-left: 10px;
+        font-size: 18px;
         .btns-header{
             display: flex;
             justify-content: center;
             gap: 40px;
+        }
+        .hl-txt {
+           color: #BE965A;
         }
     }
     .header-left {
@@ -139,6 +143,12 @@ body{
     border-radius: 20px;
     margin-top: 40px;
     cursor: pointer;
+  }
+
+  .social-icons{
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
   }
 
 .contact-right,
