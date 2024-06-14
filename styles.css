@@ -45,6 +45,7 @@ body{
     font-weight: 500;
     font-size: 16px;
     border-radius: 20px;
+    cursor: pointer;
   }
 
   .btn-menu{
@@ -56,6 +57,7 @@ body{
     font-size: 16px;
     border-radius: 20px;
     border: 1px solid var(--color-2);
+    cursor: pointer;
   }
 
   .get-to-know-us{
@@ -102,6 +104,7 @@ body{
     }
     button {
         margin-left: 10px; /* Add space between h5 and button */
+        cursor: pointer;
     }
   }
 
@@ -135,6 +138,7 @@ body{
     font-size: 16px;
     border-radius: 20px;
     margin-top: 40px;
+    cursor: pointer;
   }
 
 .contact-right,
